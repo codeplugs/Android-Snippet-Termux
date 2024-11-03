@@ -1,5 +1,5 @@
 Litext forked form 
-https://github.com/dscciem/LiText
+https://github.com/billthefarmer/editor
 
 
 ### Build with:
@@ -7,7 +7,7 @@ https://github.com/dscciem/LiText
 * java 19
 * gradle 8.0
 
-![alt text](https://raw.githubusercontent.com/codeplugs/Android-Snippet-Termux/refs/heads/main/litext/Screenshot_2024-11-04-04-11-58-698_com.termux.jpg "img")
+![alt text](https://raw.githubusercontent.com/codeplugs/Android-Snippet-Termux/refs/heads/main/android-simple-text-editor/Screenshot_2024-11-04-05-22-26-006_com.termux.jpg "img")
 
 
 
