@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--
+      Base application theme, dependent on API level. This theme is
+      replaced by AppBaseTheme from res/values-vXX/styles.xml on newer
+      devices.
+  -->
+  <style name="AppBaseTheme" parent="android:Theme.Material.Light.DarkActionBar">
+    <!--
+        Theme customizations available in newer API levels can go in
+        res/values-vXX/styles.xml, while customizations related to
+        backward-compatibility can go here.
+    -->
+  </style>
+
+  <style name="AppDarkBaseTheme" parent="android:Theme.Material">
+    <!--
+        Theme customizations available in newer API levels can go in
+        res/values-vXX/styles.xml, while customizations related to
+        backward-compatibility can go here.
+    -->
+  </style>
+
+  <style name="AppLightBaseTheme" parent="android:Theme.Material.Light">
+    <!--
+        Theme customizations available in newer API levels can go in
+        res/values-vXX/styles.xml, while customizations related to
+        backward-compatibility can go here.
+    -->
+  </style>
+
+  <!-- Application theme. -->
+  <style name="AppTheme" parent="AppBaseTheme">
+    <!--
+        All customizations that are NOT specific to a particular
+        API-level can go here.
+    -->
+
+    <item name="application">@drawable/ic_stop_black_24dp</item>
+    <item name="external">@drawable/ic_sd_storage_black_24dp</item>
+    <item name="file">@drawable/ic_list_black_24dp</item>
+    <item name="folder">@drawable/ic_folder_open_black_24dp</item>
+    <item name="audio">@drawable/ic_volume_up_black_24dp</item>
+    <item name="image">@drawable/ic_image_black_24dp</item>
+    <item name="parent">@drawable/ic_reply_black_24dp</item>
+    <item name="video">@drawable/ic_videocam_black_24dp</item>
+
+    <item name="edit">@drawable/ic_edit_white_24dp</item>
+    <item name="open">@drawable/ic_folder_open_white_24dp</item>
+    <item name="save">@drawable/ic_save_white_24dp</item>
+    <item name="view">@drawable/ic_list_white_24dp</item>
+    <item name="newFile">@drawable/ic_add_white_24dp</item>
+
+  </style>
+
+  <!-- Application theme. -->
+  <style name="AppWhiteTheme" parent="AppLightBaseTheme">
+    <!--
+        All customizations that are NOT specific to a particular
+        API-level can go here.
+    -->
+
+    <item name="application">@drawable/ic_stop_black_24dp</item>
+    <item name="external">@drawable/ic_sd_storage_black_24dp</item>
+    <item name="file">@drawable/ic_list_black_24dp</item>
+    <item name="folder">@drawable/ic_folder_open_black_24dp</item>
+    <item name="audio">@drawable/ic_volume_up_black_24dp</item>
+    <item name="image">@drawable/ic_image_black_24dp</item>
+    <item name="parent">@drawable/ic_reply_black_24dp</item>
+    <item name="video">@drawable/ic_videocam_black_24dp</item>
+
+    <item name="edit">@drawable/ic_edit_black_24dp</item>
+    <item name="open">@drawable/ic_folder_open_black_24dp</item>
+    <item name="save">@drawable/ic_save_black_24dp</item>
+    <item name="view">@drawable/ic_list_black_24dp</item>
+    <item name="newFile">@drawable/ic_add_black_24dp</item>
+
+    <item name="android:textColorPrimary">@android:color/black</item>
+    <item name="android:textColorSecondary">@android:color/black</item>
+    <item name="android:textColorTertiary">@android:color/black</item>
+
+  </style>
+
+  <!-- Application theme. -->
+  <style name="AppDarkTheme" parent="AppDarkBaseTheme">
+    <!--
+        All customizations that are NOT specific to a particular
+        API-level can go here.
+    -->
+
+    <item name="application">@drawable/ic_stop_white_24dp</item>
+    <item name="external">@drawable/ic_sd_storage_white_24dp</item>
+    <item name="file">@drawable/ic_list_white_24dp</item>
+    <item name="folder">@drawable/ic_folder_open_white_24dp</item>
+    <item name="audio">@drawable/ic_volume_up_white_24dp</item>
+    <item name="image">@drawable/ic_image_white_24dp</item>
+    <item name="parent">@drawable/ic_reply_white_24dp</item>
+    <item name="video">@drawable/ic_videocam_white_24dp</item>
+
+    <item name="edit">@drawable/ic_edit_white_24dp</item>
+    <item name="open">@drawable/ic_folder_open_white_24dp</item>
+    <item name="save">@drawable/ic_save_white_24dp</item>
+    <item name="view">@drawable/ic_list_white_24dp</item>
+    <item name="newFile">@drawable/ic_add_white_24dp</item>
+
+  </style>
+
+  <!-- Application theme. -->
+  <style name="AppBlackTheme" parent="AppDarkBaseTheme">
+    <!--
+        All customizations that are NOT specific to a particular
+        API-level can go here.
+    -->
+
+    <item name="application">@drawable/ic_stop_white_24dp</item>
+    <item name="external">@drawable/ic_sd_storage_white_24dp</item>
+    <item name="file">@drawable/ic_list_white_24dp</item>
+    <item name="folder">@drawable/ic_folder_open_white_24dp</item>
+    <item name="audio">@drawable/ic_volume_up_white_24dp</item>
+    <item name="image">@drawable/ic_image_white_24dp</item>
+    <item name="parent">@drawable/ic_reply_white_24dp</item>
+    <item name="video">@drawable/ic_videocam_white_24dp</item>
+
+    <item name="edit">@drawable/ic_edit_white_24dp</item>
+    <item name="open">@drawable/ic_folder_open_white_24dp</item>
+    <item name="save">@drawable/ic_save_white_24dp</item>
+    <item name="view">@drawable/ic_list_white_24dp</item>
+    <item name="newFile">@drawable/ic_add_white_24dp</item>
+
+    <item name="android:windowBackground">@android:color/black</item>
+
+    <item name="android:textColorPrimary">@android:color/white</item>
+    <item name="android:textColorSecondary">@android:color/white</item>
+    <item name="android:textColorTertiary">@android:color/white</item>
+
+  </style>
+
+  <!-- Application theme. -->
+  <style name="AppRetroTheme" parent="AppDarkBaseTheme">
+    <!--
+        All customizations that are NOT specific to a particular
+        API-level can go here.
+    -->
+
+    <item name="application">@drawable/ic_stop_white_24dp</item>
+    <item name="external">@drawable/ic_sd_storage_white_24dp</item>
+    <item name="file">@drawable/ic_list_white_24dp</item>
+    <item name="folder">@drawable/ic_folder_open_white_24dp</item>
+    <item name="audio">@drawable/ic_volume_up_white_24dp</item>
+    <item name="image">@drawable/ic_image_white_24dp</item>
+    <item name="parent">@drawable/ic_reply_white_24dp</item>
+    <item name="video">@drawable/ic_videocam_white_24dp</item>
+
+    <item name="edit">@drawable/ic_edit_white_24dp</item>
+    <item name="open">@drawable/ic_folder_open_white_24dp</item>
+    <item name="save">@drawable/ic_save_white_24dp</item>
+    <item name="view">@drawable/ic_list_white_24dp</item>
+    <item name="newFile">@drawable/ic_add_white_24dp</item>
+
+    <item name="android:windowBackground">@android:color/black</item>
+
+    <item name="android:textColorPrimary">@color/text_color_retro</item>
+    <item name="android:textColorSecondary">@color/text_color_retro</item>
+    <item name="android:textColorTertiary">@color/text_color_retro</item>
+
+  </style>
+
+  <style name="DialogBaseTheme" parent="android:Theme.Material.Light.Dialog">
+    <!--
+        Theme customizations available in newer API levels can go in
+        res/values-vXX/styles.xml, while customizations related to
+        backward-compatibility can go here.
+    -->
+  </style>
+
+  <style name="DialogDarkBaseTheme" parent="android:Theme.Material.Dialog">
+    <!--
+        Theme customizations available in newer API levels can go in
+        res/values-vXX/styles.xml, while customizations related to
+        backward-compatibility can go here.
+    -->
+  </style>
+
+  <style name="DialogTheme" parent="DialogBaseTheme">
+    <!--
+        All customizations that are NOT specific to a particular
+        API-level can go here.
+    -->
+
+    <item name="application">@drawable/ic_stop_black_24dp</item>
+    <item name="external">@drawable/ic_sd_storage_black_24dp</item>
+    <item name="file">@drawable/ic_list_black_24dp</item>
+    <item name="folder">@drawable/ic_folder_open_black_24dp</item>
+    <item name="audio">@drawable/ic_volume_up_black_24dp</item>
+    <item name="image">@drawable/ic_image_black_24dp</item>
+    <item name="parent">@drawable/ic_reply_black_24dp</item>
+    <item name="video">@drawable/ic_videocam_black_24dp</item>
+
+    <item name="edit">@drawable/ic_edit_white_24dp</item>
+    <item name="open">@drawable/ic_folder_open_white_24dp</item>
+    <item name="save">@drawable/ic_save_white_24dp</item>
+    <item name="view">@drawable/ic_list_white_24dp</item>
+    <item name="newFile">@drawable/ic_add_white_24dp</item>
+
+  </style>
+
+  <style name="DialogWhiteTheme" parent="DialogBaseTheme">
+    <!--
+        All customizations that are NOT specific to a particular
+        API-level can go here.
+    -->
+
+    <item name="application">@drawable/ic_stop_black_24dp</item>
+    <item name="external">@drawable/ic_sd_storage_black_24dp</item>
+    <item name="file">@drawable/ic_list_black_24dp</item>
+    <item name="folder">@drawable/ic_folder_open_black_24dp</item>
+    <item name="audio">@drawable/ic_volume_up_black_24dp</item>
+    <item name="image">@drawable/ic_image_black_24dp</item>
+    <item name="parent">@drawable/ic_reply_black_24dp</item>
+    <item name="video">@drawable/ic_videocam_black_24dp</item>
+
+    <item name="edit">@drawable/ic_edit_black_24dp</item>
+    <item name="open">@drawable/ic_folder_open_black_24dp</item>
+    <item name="save">@drawable/ic_save_black_24dp</item>
+    <item name="view">@drawable/ic_list_black_24dp</item>
+    <item name="newFile">@drawable/ic_add_black_24dp</item>
+
+    <item name="android:textColorPrimary">@android:color/black</item>
+    <item name="android:textColorSecondary">@android:color/black</item>
+    <item name="android:textColorTertiary">@android:color/black</item>
+
+  </style>
+
+  <style name="DialogDarkTheme" parent="DialogDarkBaseTheme">
+    <!--
+        All customizations that are NOT specific to a particular
+        API-level can go here.
+    -->
+
+    <item name="application">@drawable/ic_stop_white_24dp</item>
+    <item name="external">@drawable/ic_sd_storage_white_24dp</item>
+    <item name="file">@drawable/ic_list_white_24dp</item>
+    <item name="folder">@drawable/ic_folder_open_white_24dp</item>
+    <item name="audio">@drawable/ic_volume_up_white_24dp</item>
+    <item name="image">@drawable/ic_image_white_24dp</item>
+    <item name="parent">@drawable/ic_reply_white_24dp</item>
+    <item name="video">@drawable/ic_videocam_white_24dp</item>
+
+    <item name="edit">@drawable/ic_edit_white_24dp</item>
+    <item name="open">@drawable/ic_folder_open_white_24dp</item>
+    <item name="save">@drawable/ic_save_white_24dp</item>
+    <item name="view">@drawable/ic_list_white_24dp</item>
+    <item name="newFile">@drawable/ic_add_white_24dp</item>
+
+  </style>
+
+  <style name="DialogBlackTheme" parent="DialogDarkBaseTheme">
+    <!--
+        All customizations that are NOT specific to a particular
+        API-level can go here.
+    -->
+
+    <item name="application">@drawable/ic_stop_white_24dp</item>
+    <item name="external">@drawable/ic_sd_storage_white_24dp</item>
+    <item name="file">@drawable/ic_list_white_24dp</item>
+    <item name="folder">@drawable/ic_folder_open_white_24dp</item>
+    <item name="audio">@drawable/ic_volume_up_white_24dp</item>
+    <item name="image">@drawable/ic_image_white_24dp</item>
+    <item name="parent">@drawable/ic_reply_white_24dp</item>
+    <item name="video">@drawable/ic_videocam_white_24dp</item>
+
+    <item name="edit">@drawable/ic_edit_white_24dp</item>
+    <item name="open">@drawable/ic_folder_open_white_24dp</item>
+    <item name="save">@drawable/ic_save_white_24dp</item>
+    <item name="view">@drawable/ic_list_white_24dp</item>
+    <item name="newFile">@drawable/ic_add_white_24dp</item>
+
+    <item name="android:textColorPrimary">@android:color/white</item>
+    <item name="android:textColorSecondary">@android:color/white</item>
+    <item name="android:textColorTertiary">@android:color/white</item>
+
+  </style>
+
+  <style name="DialogRetroTheme" parent="DialogDarkBaseTheme">
+    <!--
+        All customizations that are NOT specific to a particular
+        API-level can go here.
+    -->
+
+    <item name="application">@drawable/ic_stop_white_24dp</item>
+    <item name="external">@drawable/ic_sd_storage_white_24dp</item>
+    <item name="file">@drawable/ic_list_white_24dp</item>
+    <item name="folder">@drawable/ic_folder_open_white_24dp</item>
+    <item name="audio">@drawable/ic_volume_up_white_24dp</item>
+    <item name="image">@drawable/ic_image_white_24dp</item>
+    <item name="parent">@drawable/ic_reply_white_24dp</item>
+    <item name="video">@drawable/ic_videocam_white_24dp</item>
+
+    <item name="edit">@drawable/ic_edit_white_24dp</item>
+    <item name="open">@drawable/ic_folder_open_white_24dp</item>
+    <item name="save">@drawable/ic_save_white_24dp</item>
+    <item name="view">@drawable/ic_list_white_24dp</item>
+    <item name="newFile">@drawable/ic_add_white_24dp</item>
+
+    <item name="android:textColorPrimary">@color/text_color_retro</item>
+    <item name="android:textColorSecondary">@color/text_color_retro</item>
+    <item name="android:textColorTertiary">@color/text_color_retro</item>
+
+  </style>
+
+</resources>
