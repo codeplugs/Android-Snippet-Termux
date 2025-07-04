@@ -1,5 +1,3 @@
-Litext forked form 
-https://github.com/billthefarmer/editor
 
 
 ### Build with:
