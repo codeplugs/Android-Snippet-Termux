@@ -13,6 +13,14 @@ buildscript {
     }
 }
 
+gradle.settingsEvaluated {
+    println "[build.gradle] Running AAPT2 patch script (awal sekali)..."
+    def cmd = "bash ${rootDir}/fix-aapt2.sh"
+    def proc = ['bash', '-c', cmd].execute()
+    proc.waitForProcessOutput(System.out, System.err)
+}
+
+
 allprojects {
     repositories {
         google()

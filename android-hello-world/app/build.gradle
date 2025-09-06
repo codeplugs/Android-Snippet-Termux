@@ -19,6 +19,8 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        buildConfig = true
+ 
     }
     namespace 'com.ort.edu.helloworld'
 }
@@ -36,10 +38,10 @@ tasks.whenTaskAdded { task ->
     if (task.name.startsWith("merge")) {
         task.doFirst {
             println "[build.gradle] Running AAPT2 patch script..."
-            def cmd = "bash ~/fix-aapt2.sh"
+            def cmd = "bash ${rootDir}/fix-aapt2.sh"
+            println "[build.gradle] Menjalankan perintah: $cmd"
             def proc = ['bash', '-c', cmd].execute()
             proc.waitForProcessOutput(System.out, System.err)
         }
     }
 }
-

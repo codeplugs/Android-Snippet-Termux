@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">change basemode2</string>
+    <string name="title">change basemode2</string>
+    <string name="hint">Choose target FPS and press Apply. LSPosed must be enabled for System/Framework.</string>
+    <string name="apply">Apply</string>
+</resources>
